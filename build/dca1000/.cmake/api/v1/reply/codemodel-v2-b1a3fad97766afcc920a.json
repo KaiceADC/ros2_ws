@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-efaf9d0ab600ee7dcf58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dca1000",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dca1000_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dca1000_egg-a281cafa53b37e6613ae.json",
+					"name" : "ament_cmake_python_build_dca1000_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dca1000_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dca1000_scripts-c9eb132e4fc324f656cd.json",
+					"name" : "ament_cmake_python_build_dca1000_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dca1000::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dca1000-e864efc22ff333223ed9.json",
+					"name" : "ament_cmake_python_copy_dca1000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dca1000_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dca1000_setup-458a2ae6283329d5c352.json",
+					"name" : "ament_cmake_python_copy_dca1000_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cbuffer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cbuffer-a0ed715e32d5d28dc495.json",
+					"name" : "cbuffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dca1000_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dca1000_uninstall-3de0d69b5791b29870ea.json",
+					"name" : "dca1000_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-140d8340980f99c4cc75.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kaice/ros2_ws/build/dca1000",
+		"source" : "/home/kaice/ros2_ws/src/ti_mmwave_ros2/src/dca1000"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

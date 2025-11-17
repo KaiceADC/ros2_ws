@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "radar_simulator__py",
+		"source" : "/home/kaice/ros2_ws/build/radar_simulator/radar_simulator__py"
+	}
+}

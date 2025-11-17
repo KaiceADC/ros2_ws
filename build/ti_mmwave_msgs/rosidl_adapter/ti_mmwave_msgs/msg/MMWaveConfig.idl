@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ti_mmwave_msgs/msg/MMWaveConfig.msg
+// generated code does not contain a copyright notice
+
+
+module ti_mmwave_msgs {
+  module msg {
+    struct MMWaveConfig {
+      int32 num_adc_samples;
+
+      int32 num_loops;
+
+      int32 num_tx;
+
+      int32 num_lvds_lanes;
+
+      float f_s;
+
+      float f_c;
+
+      float bw;
+
+      float pri;
+
+      float t_fr;
+
+      float range_max;
+
+      float range_res;
+
+      float doppler_max;
+
+      float doppler_res;
+
+      string raw_commands;
+    };
+  };
+};

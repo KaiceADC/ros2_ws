@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/data_frame__type_support.c.o"
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/data_frame__type_support.c.o.d"
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.c.o"
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.c.o.d"
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/radar_scan__type_support.c.o"
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/radar_scan__type_support.c.o.d"
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.c.o"
+  "CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.c.o.d"
+  "libti_mmwave_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libti_mmwave_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/data_frame__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/data_frame__type_support.c"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/mm_wave_config__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.c"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/radar_scan__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/radar_scan__type_support.c"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/srv/detail/mm_wave_cli__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

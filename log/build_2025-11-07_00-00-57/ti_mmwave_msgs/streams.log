@@ -1,0 +1,332 @@
+[0.028s] Invoking command in '/home/kaice/ros2_ws/build/ti_mmwave_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kaice/ros2_ws/src/ti_mmwave_ros2/src/ti_mmwave_msgs -DCMAKE_INSTALL_PREFIX=/home/kaice/ros2_ws/install/ti_mmwave_msgs
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.276s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.385s] -- Detecting CXX compiler ABI info - done
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.394s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.560s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.638s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.647s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.727s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.041s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.607s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.608s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.633s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.633s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.633s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.633s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.659s] -- Found PythonExtra: .so  
+[1.718s] -- Configuring done
+[1.755s] -- Generating done
+[1.768s] -- Build files have been written to: /home/kaice/ros2_ws/build/ti_mmwave_msgs
+[1.777s] Invoked command in '/home/kaice/ros2_ws/build/ti_mmwave_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kaice/ros2_ws/src/ti_mmwave_ros2/src/ti_mmwave_msgs -DCMAKE_INSTALL_PREFIX=/home/kaice/ros2_ws/install/ti_mmwave_msgs
+[1.780s] Invoking command in '/home/kaice/ros2_ws/build/ti_mmwave_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kaice/ros2_ws/build/ti_mmwave_msgs -- -j6 -l6
+[1.856s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.874s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.935s] [  3%] Built target ament_cmake_python_copy_ti_mmwave_msgs
+[2.138s] running egg_info
+[2.140s] creating ti_mmwave_msgs.egg-info
+[2.140s] writing ti_mmwave_msgs.egg-info/PKG-INFO
+[2.141s] writing dependency_links to ti_mmwave_msgs.egg-info/dependency_links.txt
+[2.142s] writing top-level names to ti_mmwave_msgs.egg-info/top_level.txt
+[2.142s] writing manifest file 'ti_mmwave_msgs.egg-info/SOURCES.txt'
+[2.145s] reading manifest file 'ti_mmwave_msgs.egg-info/SOURCES.txt'
+[2.146s] writing manifest file 'ti_mmwave_msgs.egg-info/SOURCES.txt'
+[2.178s] [  3%] Built target ament_cmake_python_build_ti_mmwave_msgs_egg
+[2.610s] [  5%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_c.dir/rosidl_generator_c/ti_mmwave_msgs/msg/detail/radar_scan__functions.c.o[0m
+[2.620s] [  7%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_c.dir/rosidl_generator_c/ti_mmwave_msgs/msg/detail/data_frame__functions.c.o[0m
+[2.624s] [  9%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_c.dir/rosidl_generator_c/ti_mmwave_msgs/msg/detail/mm_wave_config__functions.c.o[0m
+[2.634s] [ 10%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_c.dir/rosidl_generator_c/ti_mmwave_msgs/srv/detail/mm_wave_cli__functions.c.o[0m
+[2.643s] [ 10%] Built target ti_mmwave_msgs__cpp
+[2.666s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.705s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.769s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.872s] [ 18%] [32m[1mLinking C shared library libti_mmwave_msgs__rosidl_generator_c.so[0m
+[3.037s] [ 18%] Built target ti_mmwave_msgs__rosidl_generator_c
+[3.072s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.076s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.093s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.239s] [ 25%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ti_mmwave_msgs/msg/radar_scan__type_support.cpp.o[0m
+[3.314s] [ 27%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ti_mmwave_msgs/msg/detail/radar_scan__type_support.cpp.o[0m
+[3.436s] [ 29%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ti_mmwave_msgs/msg/detail/dds_fastrtps/radar_scan__type_support.cpp.o[0m
+[3.476s] [ 30%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ti_mmwave_msgs/msg/radar_scan__type_support.cpp.o[0m
+[3.517s] [ 32%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ti_mmwave_msgs/msg/data_frame__type_support.cpp.o[0m
+[3.524s] [ 34%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ti_mmwave_msgs/msg/data_frame__type_support.cpp.o[0m
+[3.583s] [ 36%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ti_mmwave_msgs/msg/mm_wave_config__type_support.cpp.o[0m
+[3.592s] [ 38%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/radar_scan__type_support.c.o[0m
+[3.638s] [ 40%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ti_mmwave_msgs/srv/mm_wave_cli__type_support.cpp.o[0m
+[3.638s] [ 41%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/data_frame__type_support.c.o[0m
+[3.699s] [ 43%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ti_mmwave_msgs/msg/detail/radar_scan__type_support_c.cpp.o[0m
+[3.713s] [ 45%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.c.o[0m
+[3.727s] [ 47%] [32m[1mLinking CXX shared library libti_mmwave_msgs__rosidl_typesupport_c.so[0m
+[3.779s] [ 49%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.c.o[0m
+[3.785s] [ 50%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ti_mmwave_msgs/msg/detail/data_frame__type_support.cpp.o[0m
+[3.806s] [ 50%] Built target ti_mmwave_msgs__rosidl_typesupport_c
+[3.822s] [ 52%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ti_mmwave_msgs/msg/detail/data_frame__type_support_c.cpp.o[0m
+[3.841s] [ 54%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ti_mmwave_msgs/msg/mm_wave_config__type_support.cpp.o[0m
+[3.916s] [ 56%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ti_mmwave_msgs/msg/detail/dds_fastrtps/data_frame__type_support.cpp.o[0m
+[3.917s] [ 58%] [32m[1mLinking C shared library libti_mmwave_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.019s] [ 58%] Built target ti_mmwave_msgs__rosidl_typesupport_introspection_c
+[4.039s] [ 60%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ti_mmwave_msgs/srv/mm_wave_cli__type_support.cpp.o[0m
+[4.110s] [ 61%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support_c.cpp.o[0m
+[4.181s] [ 63%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.cpp.o[0m
+[4.192s] [ 65%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support_c.cpp.o[0m
+[4.228s] [ 67%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ti_mmwave_msgs/msg/detail/dds_fastrtps/mm_wave_config__type_support.cpp.o[0m
+[4.387s] [ 69%] [32m[1mLinking CXX shared library libti_mmwave_msgs__rosidl_typesupport_cpp.so[0m
+[4.490s] [ 70%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ti_mmwave_msgs/srv/detail/dds_fastrtps/mm_wave_cli__type_support.cpp.o[0m
+[4.507s] [ 72%] [32mBuilding CXX object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.cpp.o[0m
+[4.571s] [ 72%] Built target ti_mmwave_msgs__rosidl_typesupport_cpp
+[4.654s] [ 74%] [32m[1mLinking CXX shared library libti_mmwave_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.785s] [ 74%] Built target ti_mmwave_msgs__rosidl_typesupport_fastrtps_c
+[4.893s] [ 76%] [32m[1mLinking CXX shared library libti_mmwave_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.914s] [ 78%] [32m[1mLinking CXX shared library libti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.977s] [ 78%] Built target ti_mmwave_msgs__rosidl_typesupport_introspection_cpp
+[5.002s] [ 78%] Built target ti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp
+[5.033s] [ 78%] Built target ti_mmwave_msgs
+[5.063s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.580s] [ 80%] Built target ti_mmwave_msgs__py
+[5.612s] [ 83%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_py.dir/rosidl_generator_py/ti_mmwave_msgs/msg/_mm_wave_config_s.c.o[0m
+[5.612s] [ 83%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_py.dir/rosidl_generator_py/ti_mmwave_msgs/srv/_mm_wave_cli_s.c.o[0m
+[5.612s] [ 87%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_py.dir/rosidl_generator_py/ti_mmwave_msgs/msg/_data_frame_s.c.o[0m
+[5.612s] [ 87%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_generator_py.dir/rosidl_generator_py/ti_mmwave_msgs/msg/_radar_scan_s.c.o[0m
+[5.717s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ti_mmwave_msgs/libti_mmwave_msgs__rosidl_generator_py.so[0m
+[5.772s] [ 89%] Built target ti_mmwave_msgs__rosidl_generator_py
+[5.801s] [ 94%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ti_mmwave_msgs/_ti_mmwave_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.802s] [ 94%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ti_mmwave_msgs/_ti_mmwave_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.802s] [ 94%] [32mBuilding C object CMakeFiles/ti_mmwave_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ti_mmwave_msgs/_ti_mmwave_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.920s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.920s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.920s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.972s] [100%] Built target ti_mmwave_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.973s] [100%] Built target ti_mmwave_msgs__rosidl_typesupport_introspection_c__pyext
+[5.973s] [100%] Built target ti_mmwave_msgs__rosidl_typesupport_c__pyext
+[5.989s] Invoked command in '/home/kaice/ros2_ws/build/ti_mmwave_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kaice/ros2_ws/build/ti_mmwave_msgs -- -j6 -l6
+[5.991s] Invoking command in '/home/kaice/ros2_ws/build/ti_mmwave_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kaice/ros2_ws/build/ti_mmwave_msgs
+[6.001s] -- Install configuration: ""
+[6.001s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ament_index/resource_index/rosidl_interfaces/ti_mmwave_msgs
+[6.001s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs
+[6.001s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv
+[6.002s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail
+[6.002s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.h
+[6.002s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__functions.h
+[6.002s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__struct.h
+[6.002s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__functions.c
+[6.003s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/mm_wave_cli.h
+[6.003s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg
+[6.003s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.003s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/radar_scan.h
+[6.003s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/mm_wave_config.h
+[6.003s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail
+[6.004s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.h
+[6.004s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__functions.c
+[6.004s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__functions.h
+[6.004s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__functions.c
+[6.005s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__functions.h
+[6.006s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__type_support.h
+[6.006s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__functions.h
+[6.006s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__struct.h
+[6.006s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__functions.c
+[6.007s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__struct.h
+[6.007s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__type_support.h
+[6.007s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__struct.h
+[6.008s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/data_frame.h
+[6.008s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/library_path.sh
+[6.008s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/library_path.dsv
+[6.008s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_generator_c.so
+[6.009s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_generator_c.so" to ""
+[6.009s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs
+[6.009s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv
+[6.009s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail
+[6.009s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__rosidl_typesupport_fastrtps_c.h
+[6.010s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg
+[6.010s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail
+[6.010s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__rosidl_typesupport_fastrtps_c.h
+[6.010s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__rosidl_typesupport_fastrtps_c.h
+[6.010s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__rosidl_typesupport_fastrtps_c.h
+[6.010s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.010s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_fastrtps_c.so
+[6.011s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.011s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs
+[6.011s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv
+[6.011s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail
+[6.011s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__rosidl_typesupport_introspection_c.h
+[6.012s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.c
+[6.012s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg
+[6.012s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail
+[6.012s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__rosidl_typesupport_introspection_c.h
+[6.013s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__rosidl_typesupport_introspection_c.h
+[6.013s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__rosidl_typesupport_introspection_c.h
+[6.013s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__type_support.c
+[6.013s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.c
+[6.014s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__type_support.c
+[6.014s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.014s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_introspection_c.so
+[6.014s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.014s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_c.so
+[6.015s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_c.so" to ""
+[6.015s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs
+[6.015s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv
+[6.015s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/mm_wave_cli.hpp
+[6.016s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail
+[6.016s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__traits.hpp
+[6.016s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__struct.hpp
+[6.016s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__builder.hpp
+[6.016s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.hpp
+[6.016s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg
+[6.016s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/mm_wave_config.hpp
+[6.017s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/radar_scan.hpp
+[6.017s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail
+[6.017s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__traits.hpp
+[6.017s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__struct.hpp
+[6.017s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__type_support.hpp
+[6.018s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.hpp
+[6.018s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__traits.hpp
+[6.018s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__builder.hpp
+[6.018s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__builder.hpp
+[6.018s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__struct.hpp
+[6.019s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__type_support.hpp
+[6.019s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__builder.hpp
+[6.019s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__struct.hpp
+[6.019s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__traits.hpp
+[6.019s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.020s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/data_frame.hpp
+[6.020s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs
+[6.020s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv
+[6.020s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail
+[6.020s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__rosidl_typesupport_fastrtps_cpp.hpp
+[6.020s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/dds_fastrtps
+[6.021s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg
+[6.021s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail
+[6.021s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[6.021s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/dds_fastrtps
+[6.022s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[6.022s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__rosidl_typesupport_fastrtps_cpp.hpp
+[6.022s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.022s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.022s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.023s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs
+[6.023s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv
+[6.023s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail
+[6.023s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__rosidl_typesupport_introspection_cpp.hpp
+[6.023s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/srv/detail/mm_wave_cli__type_support.cpp
+[6.023s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg
+[6.023s] -- Up-to-date: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail
+[6.023s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__rosidl_typesupport_introspection_cpp.hpp
+[6.024s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__type_support.cpp
+[6.024s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__rosidl_typesupport_introspection_cpp.hpp
+[6.024s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/data_frame__type_support.cpp
+[6.024s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/mm_wave_config__rosidl_typesupport_introspection_cpp.hpp
+[6.024s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/include/ti_mmwave_msgs/ti_mmwave_msgs/msg/detail/radar_scan__type_support.cpp
+[6.025s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_introspection_cpp.so
+[6.025s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.025s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_cpp.so
+[6.026s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_typesupport_cpp.so" to ""
+[6.026s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/pythonpath.sh
+[6.026s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/pythonpath.dsv
+[6.027s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs-0.0.0-py3.10.egg-info
+[6.027s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.027s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.027s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.027s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.027s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs
+[6.028s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.028s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.028s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/srv
+[6.028s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/srv/__init__.py
+[6.029s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/srv/_mm_wave_cli.py
+[6.029s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/srv/_mm_wave_cli_s.c
+[6.029s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/__init__.py
+[6.029s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/_ti_mmwave_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.029s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/libti_mmwave_msgs__rosidl_generator_py.so
+[6.030s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/_ti_mmwave_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.030s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg
+[6.030s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_data_frame_s.c
+[6.030s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_mm_wave_config.py
+[6.031s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/__init__.py
+[6.031s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_radar_scan_s.c
+[6.031s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_data_frame.py
+[6.031s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_mm_wave_config_s.c
+[6.031s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_radar_scan.py
+[6.031s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/_ti_mmwave_msgs_s.ep.rosidl_typesupport_c.c
+[6.032s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.066s] Listing '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs'...
+[6.066s] Compiling '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/__init__.py'...
+[6.066s] Listing '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg'...
+[6.066s] Compiling '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/__init__.py'...
+[6.066s] Compiling '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_data_frame.py'...
+[6.066s] Compiling '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_mm_wave_config.py'...
+[6.066s] Compiling '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/msg/_radar_scan.py'...
+[6.066s] Listing '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/srv'...
+[6.066s] Compiling '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/srv/__init__.py'...
+[6.067s] Compiling '/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/srv/_mm_wave_cli.py'...
+[6.071s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.071s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.071s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.072s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.072s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.073s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/local/lib/python3.10/dist-packages/ti_mmwave_msgs/ti_mmwave_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.073s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_generator_py.so
+[6.073s] -- Set runtime path of "/home/kaice/ros2_ws/install/ti_mmwave_msgs/lib/libti_mmwave_msgs__rosidl_generator_py.so" to ""
+[6.073s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/msg/RadarScan.idl
+[6.074s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/msg/DataFrame.idl
+[6.074s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/msg/MMWaveConfig.idl
+[6.074s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/srv/MMWaveCLI.idl
+[6.074s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/msg/RadarScan.msg
+[6.075s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/msg/DataFrame.msg
+[6.075s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/msg/MMWaveConfig.msg
+[6.075s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/srv/MMWaveCLI.srv
+[6.075s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/srv/MMWaveCLI_Request.msg
+[6.075s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/srv/MMWaveCLI_Response.msg
+[6.076s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_msgs
+[6.076s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_msgs
+[6.076s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/ament_prefix_path.sh
+[6.077s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/ament_prefix_path.dsv
+[6.077s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/path.sh
+[6.077s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/environment/path.dsv
+[6.077s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/local_setup.bash
+[6.078s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/local_setup.sh
+[6.078s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/local_setup.zsh
+[6.079s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/local_setup.dsv
+[6.079s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/package.dsv
+[6.079s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ament_index/resource_index/packages/ti_mmwave_msgs
+[6.079s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_generator_cExport.cmake
+[6.079s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.080s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.080s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.080s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.080s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.081s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_cExport.cmake
+[6.081s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.081s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_generator_cppExport.cmake
+[6.081s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.082s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.082s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.082s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.082s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_cppExport.cmake
+[6.083s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.083s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_generator_pyExport.cmake
+[6.083s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/export_ti_mmwave_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.083s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/rosidl_cmake-extras.cmake
+[6.084s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.084s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.084s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.084s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.084s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.085s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.085s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgsConfig.cmake
+[6.085s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/cmake/ti_mmwave_msgsConfig-version.cmake
+[6.086s] -- Installing: /home/kaice/ros2_ws/install/ti_mmwave_msgs/share/ti_mmwave_msgs/package.xml
+[6.089s] Invoked command in '/home/kaice/ros2_ws/build/ti_mmwave_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kaice/ros2_ws/build/ti_mmwave_msgs

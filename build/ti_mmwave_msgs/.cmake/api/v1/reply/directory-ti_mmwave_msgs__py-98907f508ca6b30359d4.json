@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ti_mmwave_msgs__py",
+		"source" : "/home/kaice/ros2_ws/build/ti_mmwave_msgs/ti_mmwave_msgs__py"
+	}
+}

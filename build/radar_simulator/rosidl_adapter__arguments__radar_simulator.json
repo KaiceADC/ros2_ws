@@ -1,0 +1,6 @@
+{
+  "package_name": "radar_simulator",
+  "non_idl_tuples": [
+    "/home/kaice/ros2_ws/src/radar_simulator:msg/RadarObject.msg"
+  ]
+}

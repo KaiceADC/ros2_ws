@@ -1,0 +1,9 @@
+{
+  "package_name": "ti_mmwave_msgs",
+  "non_idl_tuples": [
+    "/home/kaice/ros2_ws/src/ti_mmwave_ros2/src/ti_mmwave_msgs:msg/RadarScan.msg",
+    "/home/kaice/ros2_ws/src/ti_mmwave_ros2/src/ti_mmwave_msgs:msg/DataFrame.msg",
+    "/home/kaice/ros2_ws/src/ti_mmwave_ros2/src/ti_mmwave_msgs:msg/MMWaveConfig.msg",
+    "/home/kaice/ros2_ws/src/ti_mmwave_ros2/src/ti_mmwave_msgs:srv/MMWaveCLI.srv"
+  ]
+}

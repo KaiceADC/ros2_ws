@@ -1,0 +1,6 @@
+Invoking command in '/home/kaice/ros2_ws/build/radar_simulator': /usr/bin/cmake /home/kaice/ros2_ws/src/radar_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/kaice/ros2_ws/install/radar_simulator
+Invoked command in '/home/kaice/ros2_ws/build/radar_simulator' returned '0': /usr/bin/cmake /home/kaice/ros2_ws/src/radar_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/kaice/ros2_ws/install/radar_simulator
+Invoking command in '/home/kaice/ros2_ws/build/radar_simulator': /usr/bin/cmake --build /home/kaice/ros2_ws/build/radar_simulator -- -j6 -l6
+Invoked command in '/home/kaice/ros2_ws/build/radar_simulator' returned '0': /usr/bin/cmake --build /home/kaice/ros2_ws/build/radar_simulator -- -j6 -l6
+Invoking command in '/home/kaice/ros2_ws/build/radar_simulator': /usr/bin/cmake --install /home/kaice/ros2_ws/build/radar_simulator
+Invoked command in '/home/kaice/ros2_ws/build/radar_simulator' returned '0': /usr/bin/cmake --install /home/kaice/ros2_ws/build/radar_simulator

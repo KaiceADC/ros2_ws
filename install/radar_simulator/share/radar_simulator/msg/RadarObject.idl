@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from radar_simulator/msg/RadarObject.msg
+// generated code does not contain a copyright notice
+
+
+module radar_simulator {
+  module msg {
+    @verbatim (language="comment", text=
+      "Custom message for radar object detection")
+    struct RadarObject {
+      @verbatim (language="comment", text=
+        "Distance in meters")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "Velocity in m/s (positive = away, negative = toward)")
+      float velocity;
+
+      @verbatim (language="comment", text=
+        "Angle in degrees (-90 to +90)")
+      float angle;
+
+      @verbatim (language="comment", text=
+        "Radar Cross Section in dB")
+      float rcs;
+
+      @verbatim (language="comment", text=
+        "Object identifier")
+      int32 object_id;
+    };
+  };
+};
